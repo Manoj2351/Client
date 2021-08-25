@@ -1,0 +1,16 @@
+D:\Manoj\Networking 2\Client\bin\Debug\net5.0\Client.exe
+D:\Manoj\Networking 2\Client\bin\Debug\net5.0\Client.deps.json
+D:\Manoj\Networking 2\Client\bin\Debug\net5.0\Client.runtimeconfig.json
+D:\Manoj\Networking 2\Client\bin\Debug\net5.0\Client.runtimeconfig.dev.json
+D:\Manoj\Networking 2\Client\bin\Debug\net5.0\Client.dll
+D:\Manoj\Networking 2\Client\bin\Debug\net5.0\ref\Client.dll
+D:\Manoj\Networking 2\Client\bin\Debug\net5.0\Client.pdb
+D:\Manoj\Networking 2\Client\obj\Debug\net5.0\Client.csproj.AssemblyReference.cache
+D:\Manoj\Networking 2\Client\obj\Debug\net5.0\Client.GeneratedMSBuildEditorConfig.editorconfig
+D:\Manoj\Networking 2\Client\obj\Debug\net5.0\Client.AssemblyInfoInputs.cache
+D:\Manoj\Networking 2\Client\obj\Debug\net5.0\Client.AssemblyInfo.cs
+D:\Manoj\Networking 2\Client\obj\Debug\net5.0\Client.csproj.CoreCompileInputs.cache
+D:\Manoj\Networking 2\Client\obj\Debug\net5.0\Client.dll
+D:\Manoj\Networking 2\Client\obj\Debug\net5.0\ref\Client.dll
+D:\Manoj\Networking 2\Client\obj\Debug\net5.0\Client.pdb
+D:\Manoj\Networking 2\Client\obj\Debug\net5.0\Client.genruntimeconfig.cache
