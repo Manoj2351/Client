@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Manoj\\.nuget\\packages\\": {}
+    "C:\\Users\\kvssm\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Manoj\\Networking 2\\Client\\Client.csproj",
+      "projectUniqueName": "D:\\Manoj\\Networking\\Client\\Client.csproj",
       "projectName": "Client",
-      "projectPath": "D:\\Manoj\\Networking 2\\Client\\Client.csproj",
-      "packagesPath": "C:\\Users\\Manoj\\.nuget\\packages\\",
-      "outputPath": "D:\\Manoj\\Networking 2\\Client\\obj\\",
+      "projectPath": "D:\\Manoj\\Networking\\Client\\Client.csproj",
+      "packagesPath": "C:\\Users\\kvssm\\.nuget\\packages\\",
+      "outputPath": "D:\\Manoj\\Networking\\Client\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Manoj\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\kvssm\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -58,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.206\\RuntimeIdentifierGraph.json"
       }
     }
   }
