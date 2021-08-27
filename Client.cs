@@ -9,7 +9,7 @@ namespace Client
         static TcpClient client;
         public static void Connect()
         {
-            client = new TcpClient("127.0.0.1",8888);
+            client = new TcpClient("127.0.0.1",8888);   
     
         }
     }
