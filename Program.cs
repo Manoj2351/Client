@@ -8,7 +8,7 @@ namespace Client
         static void Main(string[] args)
         {
             TCPClient.Connect();
-            Console.ReadKey();
+            Console.Read();
         }
     }
 }

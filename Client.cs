@@ -23,16 +23,30 @@ namespace Client
         static void ReceiveCallback(IAsyncResult _result)
         {
             Console.WriteLine("Received data");
-            int _byteLength = networkStream.EndRead(_result);
-            byte[] _data = new byte[_byteLength];
+
+            try
+            {
+                int _byteLength = networkStream.EndRead(_result);
+
+                if(_byteLength <= 0)
+                {
+                    return;
+                }
+                byte[] _data = new byte[_byteLength];
+
+                Array.Copy(ReceiveBuffer,_data,_byteLength);
+                Array.Clear(ReceiveBuffer,0,4096);
+
+                networkStream.BeginRead(ReceiveBuffer, 0, 4096, ReceiveCallback,null);
+
+            }
+
+            catch(Exception E)
+            {
+                Console.WriteLine(E);
+            }
             
-            Array.Copy(ReceiveBuffer,_data,_byteLength);
-            Array.Clear(ReceiveBuffer,0,_byteLength);
-            Console.WriteLine(_data);
-            Packet receivedPacket = (Packet) Serializer.Deserialize(_data);
             
-            Console.WriteLine(receivedPacket.Message);
-            networkStream.BeginRead(ReceiveBuffer, 0, 4096, ReceiveCallback,null);
             
         }
     }
